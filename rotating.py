@@ -1,0 +1,5 @@
+m,n=map(str,input().split())
+ls=list(m)
+n=int(n)
+ls = (ls[-n:] + ls[:-n])
+print(''.join(ls))
