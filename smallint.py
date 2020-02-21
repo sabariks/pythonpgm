@@ -1,0 +1,6 @@
+m,n=map(str,input().split())
+lst=list(m)
+lst.pop(int(n)-1)
+lst.sort()
+a=''.join(lst)
+print(int(a))
